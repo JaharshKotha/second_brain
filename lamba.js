@@ -3,17 +3,16 @@ var Alexa = require('alexa-sdk');
 
 //=========================================================================================================================================
 //TODO: Check index mapping
+//    : Update Assignment index
 //=========================================================================================================================================
 
-//Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.  
-//Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
 var APP_ID = "amzn1.ask.skill.20efbf6d-1f33-4f5d-bd3e-acf7062c5cb0";
 
 var SKILL_NAME = "Second Brain";
 var GET_FACT_MESSAGE = "g";
 var HELP_REPROMPT = "I'm your AI";
 var STOP_MESSAGE = "Goodbye!";
-var new_session = "t";
+
 
 var states = {
     STARTMODE: '_STARTMODE',                // Prompt the user to start or restart the game.
